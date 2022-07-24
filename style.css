@@ -10,6 +10,7 @@
   .img-div{
     width: 576px;
     height: 364px;
+    margin-left: -30px;
    
 
   }
@@ -19,7 +20,7 @@
   .description{
     width: 530px;
     height: 218px;
-    margin-left: 15px;
+    margin-left: 30px;
     position: relative;
   }
   .toast{
@@ -65,6 +66,7 @@
     border-radius: 20px;
     margin-bottom: 80px;
     position: relative;
+    
    
   }
   .hot{
@@ -80,6 +82,15 @@
     left: 220px;
   }
  @media only screen and (max-width:480px){
+  #banner-section{
+    width: 100%;
+  }
+  .carousel{
+    width: 100%;
+  }
+  .carousel-item{
+    width: 100%;
+  }
   .carousel-item img{
       height: 80vh;
       object-fit: cover;
@@ -88,7 +99,7 @@
       margin-bottom: 20px;
   }
   .navbar-brand{
-      font-size: 18px;
+      font-size: 17px;
   }
   #album{
     width: 95%;
@@ -106,21 +117,25 @@
     width:98%;
   }
   .description{
-    width: 90%;
+    width: 95%;
     height: auto;
     margin-left: 0px;
     margin-bottom: 25px;
     margin-top: 40px;
   }
   .toast{
-    width: 263px;
+    width: 250px;
     height: 46px;
     position: absolute;
-   left: 35px;
+   left: 25px;
     top: -20px;
     
   }
+  #pricing{
+    width: 100%;
+  }
   .card-main-container{
+    width: 100%;
     flex-direction: column;
     margin-top: 20px;
   }
@@ -128,7 +143,7 @@
     width: 90%;
     height: auto;
     margin: 10px 0px;
-    border: 1px solid black;
+    
   }
   .active-card{
     background-color: #3f87f5;
@@ -139,6 +154,9 @@
     
     
    
+  }
+  .hot{
+    left: 120px;
   }
 
 
