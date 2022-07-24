@@ -81,6 +81,26 @@
     top: -10px;
     left: 220px;
   }
+  #client-section{
+    height: 600px;
+    margin-top: 40px;
+  }
+  .client-container{
+    display: flex;
+    justify-content:center;
+    margin-top: 80px;
+   
+  }
+  .card{
+    width:306px;
+    height: 323px;
+    margin: 0px 30px;
+    border: none;
+  }
+  .card-img-bottom{
+    width: 100px;
+
+  }
  @media only screen and (max-width:480px){
   #banner-section{
     width: 100%;
@@ -133,6 +153,7 @@
   }
   #pricing{
     width: 100%;
+    height: auto;
   }
   .card-main-container{
     width: 100%;
@@ -157,6 +178,28 @@
   }
   .hot{
     left: 120px;
+  }
+  #client-section{
+    height:auto;
+    margin-top:0px;
+  }
+  .client-container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-top: 40px;
+   
+  }
+  .card{
+    width:85%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    border: none;
+  }
+  .card-img-bottom{
+    width: 100px;
+
   }
 
 
