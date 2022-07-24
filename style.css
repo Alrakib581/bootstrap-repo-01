@@ -88,7 +88,7 @@
   .client-container{
     display: flex;
     justify-content:center;
-    margin-top: 80px;
+    margin-top: 100px;
    
   }
   .card{
@@ -101,6 +101,49 @@
     width: 100px;
 
   }
+  #faq-section{
+    height: 700px;
+  }
+  .faq-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .accordion{
+    width:552px;
+    /* height: 500px; */
+    margin-right: 35px ;
+    border: 1px dotted #3f87f5;
+    border-radius:5px;
+    
+    
+    }
+    .accordion-item{
+      border: 1px solid #3f87f5;
+    }
+    footer{
+      height: 240px;
+      background-color: #0b0d17;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo-img{
+      width:135px;
+      height: 40px;
+      display: block;
+      margin: 15px 0px;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+
+    }
+    .logo{
+      margin-right: 100px;
+    }
+    .copyright{
+      margin-left: 100px;
+    }
  @media only screen and (max-width:480px){
   #banner-section{
     width: 100%;
@@ -201,6 +244,61 @@
     width: 100px;
 
   }
+  #faq-section{
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+  }
+  .faq-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+  }
+  .accordion{
+    width:95%;
+    height: auto;
+    margin-right: 0px ;
+    
+    
+    }
+    .faq-img{
+      width: 95%;
+      margin-bottom: 20px;
+    }
+    .faq-img img{
+      width: 100%;
+    }
+    footer{
+      height: auto;
+      background-color: #0b0d17;
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content:center;
+      align-items: center;
+    }
+    footer h5{
+      margin-top: 20px;
+    }
+    .logo-img{
+      width:90%;
+      height:40px;
+      display: block;
+      margin: 15px 0px;
+      border: 1px solid #DDDDDD;
+      border-radius: 5px;
+
+    }
+    .logo{
+      margin-right:0px;
+    }
+    .copyright{
+      margin-left: 0px;
+      font-size: 12px;
+      width: 80%;
+      margin-bottom: 20px;
+    }
 
 
 }
